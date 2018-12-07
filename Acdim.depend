@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1544084102 source:d:\projects\acdim\arc_lexer.cpp
+	"arc_lexer.h"
+	<sstream>
+	<iostream>
+	<iterator>
+	<new>
+
+1543948547 d:\projects\acdim\arc_lexer.h
+	<iostream>
+	<unordered_map>
+	<sstream>
+	<iterator>
+
+1543937363 source:d:\projects\acdim\arc_driver.cpp
+	"arc_driver.h"
+
+1543937363 d:\projects\acdim\arc_driver.h
+	"arc_parser.h"
+
+1543948805 d:\projects\acdim\arc_parser.h
+	"arc_lexer.h"
+	<unordered_map>
+
+1543948607 source:d:\projects\acdim\arc_parser.cpp
+	"arc_parser.h"
+
+1543940045 source:d:\projects\acdim\main.cpp
+	"arc_driver.h"
+	"arc_parser.h"
+	"arc_lexer.h"
+
